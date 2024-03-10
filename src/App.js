@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
+//import Input from './next/Input';
+import Focusin from './next/Focusin';
+//import Refsdemo from './next/Refsdemo';
 // import Fragments from './next/Fragments';
 // import Table from './next/Table';
-import Parentcomp from './next/Parentcomp';
+// import Parentcomp from './next/Parentcomp';
 // import Sample from './component/Sample';
 // import {A} from './component/Sample';
 // import Welcome from './component/Welcom';
@@ -33,7 +36,9 @@ function App() {
       {/* <LifecyA/> */}
       {/* <Fragments/> */}
       {/* <Table/> */}
-      <Parentcomp/>
+      {/* <Parentcomp/> */}
+      {/* <Refsdemo/> */}
+      <Focusin/>
     </div>
   );
 }
