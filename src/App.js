@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
+import ForwRefParent from './next/ForwRefParent';
 //import Input from './next/Input';
-import Focusin from './next/Focusin';
+// import Focusin from './next/Focusin';
 //import Refsdemo from './next/Refsdemo';
 // import Fragments from './next/Fragments';
 // import Table from './next/Table';
@@ -38,7 +39,8 @@ function App() {
       {/* <Table/> */}
       {/* <Parentcomp/> */}
       {/* <Refsdemo/> */}
-      <Focusin/>
+      {/* <Focusin/> */}
+      <ForwRefParent/>
     </div>
   );
 }
